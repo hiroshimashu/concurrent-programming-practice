@@ -7,7 +7,7 @@ type Vector2D struct {
 	y float64
 }
 
-func (v1 Vector2D) add(v2 Vector2D) Vector2D {
+func (v1 Vector2D) Add(v2 Vector2D) Vector2D {
 	return Vector2D{
 		x: v1.x + v2.x,
 		y: v1.y + v2.y,
